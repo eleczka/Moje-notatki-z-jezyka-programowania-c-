@@ -1,3 +1,5 @@
+// zadanie 6 wypisz sinusy i cosinusy katow 0 do 180 topni z krokiem co 30 stopni za pomoca petli for
+
 #include<stdio.h>
 #include<math.h>
 int main(){
