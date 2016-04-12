@@ -1,3 +1,5 @@
+zadanie 6 napisz program wczytujacy n liczb zmiennoprzecinkowych i wyswietl ich sume oraz srednia artmetyczna
+
 #include<stdio.h>
 int main(){
 	double a, suma=0;
