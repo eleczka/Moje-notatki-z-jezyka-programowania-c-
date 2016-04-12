@@ -2,7 +2,7 @@
 dzien 2 zadanie 6
 Wypisz sinusy i cosinusy kątów 0...180 stopni z krokiem co 30 stopni za pomocą pętli for.
 
-#include<stdio.h>
+#include<stdio.h></n>
 
 #include<math.h>
 int main(){
