@@ -1,3 +1,5 @@
+//WYPISZ LICZBY CAŁKOWITE OD 0 DO 23 zadnaie 1 dzien 1
+
 # include <stdio.h>
 int main(){
 	int a=0;
@@ -8,3 +10,5 @@ int main(){
 	while(a<=23);
 return 0;
 }
+
+
