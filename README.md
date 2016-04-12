@@ -1,5 +1,7 @@
 # zadanie-z-programowania-c-
-dzien 2 zadanie 5
+dzien 2 zadanie 6
+Wypisz sinusy i cosinusy kątów 0...180 stopni z krokiem co 30 stopni za pomocą pętli for.
+
 #include<stdio.h>
 #include<math.h>
 int main(){
