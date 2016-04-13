@@ -1,4 +1,6 @@
-Notatki-z-jezyka-programowania-c++ /n
+Notatki-z-jezyka-programowania-c++ 
+
+
 Zadanie 2 wypisz liczby od -3,5 do 7,5 z krokiem co 0,5 za pomoca petli for i while
 ```
 # include <stdio.h>
