@@ -3,7 +3,7 @@ Notatki-z-jezyka-programowania-c++
 
 Zadanie 2
 
-wypisz liczby od -3,5 do 7,5 z krokiem co 0,5 za pomoca petli for i while
+Wypisz liczby od -3,5 do 7,5 z krokiem co 0,5 za pomoca petli for i while
 ```
 # include <stdio.h>
  int main(){
@@ -15,7 +15,9 @@ wypisz liczby od -3,5 do 7,5 z krokiem co 0,5 za pomoca petli for i while
  return 0;
 }
 ```
-Zadanie 6 napisz program wczytujacy n liczb zmiennoprzecinkowych i wyswietl ich sume oraz srednia artmetyczna
+Zadanie 6
+
+ Napisz program wczytujacy n liczb zmiennoprzecinkowych i wyswietl ich sume oraz srednia artmetyczna
 
 ```
 #include<stdio.h>
@@ -34,7 +36,9 @@ for(licznik=1; licznik<=ile;licznik++){
  return 0;
 }
 ```
-Zadanie 6 wypisz sinusy i cosinusy katow 0 do 180 topni z krokiem co 30 stopni za pomoca petli for
+Zadanie 6:
+
+wypisz sinusy i cosinusy katow 0 do 180 topni z krokiem co 30 stopni za pomoca petli for
 
 ```
 #include<stdio.h>
@@ -48,7 +52,7 @@ printf("cos(%3d)=%7.4lf\n", x,cos(x*M_PI/180));
 return 0;
 }
 ```
-WYPISZ LICZBY CAŁKOWITE OD 0 DO 23 zadnaie 1 dzien 1
+Wypisz liczby całkowite od 0 do 23 zadnaie 1 dzien 1
 ```
 # include <stdio.h>
 int main(){
