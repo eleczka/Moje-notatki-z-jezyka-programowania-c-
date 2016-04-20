@@ -6,14 +6,14 @@ Zadanie 2
 Wypisz liczby od -3,5 do 7,5 z krokiem co 0,5 za pomoca petli for i while
 ```
 ## include <stdio.h>
-## int main(){
-##     double x=-3.5;
-##     while(x<=7.5){
-##     	printf ("%.1lf ",x);
-##     	x=x+0.5;
-##	 }
-## return 0;
-##}
+ int main(){
+     double x=-3.5;
+     while(x<=7.5){
+    	printf ("%.1lf ",x);
+     	x=x+0.5;
+	 }
+return 0;
+}
 ```
 Zadanie 6
 
@@ -42,7 +42,7 @@ wypisz sinusy i cosinusy katow 0 do 180 topni z krokiem co 30 stopni za pomoca p
 
 ```
 #include<stdio.h>
-#include<math.h>
+include<math.h>
 int main(){
 int x; 
 for(x=0;x<=180;x=x+30){
