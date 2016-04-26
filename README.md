@@ -104,3 +104,65 @@ int jest7 (int dane[])
     return a;
 }
 ```
+Zad. 11. Napisz funkcje, która transponuje tablice kwadratowa double tab [128] [128] podana jako argument. Napisz i wykorzystaj funkcje void wyswietlMacierz (double m [128] [128], int wierszy, int kolumn);
+...
+
+#include <stdio.h>
+#define N 128                     
+double trans (double tab[N][N], int wierszy, int kolumn);
+void wyswietlMacierz (double m[N][N], int wierszy, int kolumn);
+int main () {
+    double tab[N][N];
+    double tabT[N][N];
+    double x;
+    int i;
+    int j;
+    int wierszy;
+    int kolumn;
+    printf ("\nWprowadz ilosc wierszy: ");
+    scanf ("%d", &wierszy);
+    printf ("\nWprowadz ilosc kolumn: ");
+    scanf ("%d", &kolumn);          
+    for (i = 0; i < wierszy; i++)       
+    {
+        for (j = 0; j < kolumn; j++)   
+        {
+            printf ("\nWprowadz skladowa tablicy [%d,%d]: ", i + 1, j + 1);
+            scanf ("%lf", &x);
+            tab[i][j] = x;
+        }
+    }
+    printf ("\n");         
+    wyswietlMacierz (tab, wierszy, kolumn);
+    printf ("\n");             
+    for (i = 0; i < wierszy; i++)       
+        for (j = 0; j < kolumn; j++)
+            tabT[i][j] = tab[i][j];
+    trans (tabT, wierszy, kolumn);
+    wyswietlMacierz (tabT, kolumn, wierszy); 
+    getchar ();
+    getchar ();
+    return 0;
+}
+double trans (double tab[N][N], int wierszy, int kolumn)
+{
+    double tabT[N][N];
+    int i;
+    int j;
+    int k;
+    for (i = 0; i < wierszy; i++)       
+        for (j = 0; j < kolumn; j++)
+            tabT[j][i] = tab[i][j];
+    for (i = 0; i < kolumn; i++)      
+        for (j = 0; j < wierszy; j++)
+            tab[i][j] = tabT[i][j];
+}
+void wyswietlMacierz (double m[N][N], int wierszy, int kolumn)
+{
+    int i;
+    int j;
+    for (i = 0; i < wierszy; i++)
+        for (j = 0; j < kolumn; j++)
+            printf ("%lf %c", m[i][j], j == kolumn - 1 ? '\n' : ' ');
+}
+...
