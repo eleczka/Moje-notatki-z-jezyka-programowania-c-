@@ -1,4 +1,4 @@
-Notatki-z-jezyka-programowania-c++ 
+Notatki-z-jezyka-programowania-c 
 
 
 Zadanie 2
@@ -105,10 +105,10 @@ int jest7 (int dane[])
     return a;
 }
 ```
-Zad. 11. Napisz funkcje, która transponuje tablice kwadratowa double tab [128] [128] podana jako argument. Napisz i wykorzystaj funkcje void wyswietlMacierz (double m [128] [128], int wierszy, int kolumn).
+Zad. 11 Napisz funkcje, która transponuje tablice kwadratowa double tab [128] [128] podana jako argument. Napisz i wykorzystaj funkcje void wyswietlMacierz (double m [128] [128], int wierszy, int kolumn)
 ...
-#include <stdio.h>
-#define N 128                     
+# include <stdio.h>
+# define N 128                     
 double trans (double tab[N][N], int wierszy, int kolumn);
 void wyswietlMacierz (double m[N][N], int wierszy, int kolumn);
 int main () {
