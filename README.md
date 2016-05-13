@@ -4,7 +4,7 @@ Notatki-z-jezyka-programowania-c++
 Zadanie 2
 
 Wypisz liczby od -3,5 do 7,5 z krokiem co 0,5 za pomoca petli for i while
-C
+
 ```
 # include <stdio.h>
  int main(){
@@ -105,11 +105,8 @@ int jest7 (int dane[])
     return a;
 }
 ```
-Zad. 11. Napisz funkcje, która transponuje tablice kwadratowa double tab [128] [128] podana jako argument. Napisz i wykorzystaj funkcje void wyswietlMacierz (double m [128] [128], int wierszy, int kolumn);
-
+Zad. 11. Napisz funkcje, która transponuje tablice kwadratowa double tab [128] [128] podana jako argument. Napisz i wykorzystaj funkcje void wyswietlMacierz (double m [128] [128], int wierszy, int kolumn).
 ...
-C
-
 #include <stdio.h>
 #define N 128                     
 double trans (double tab[N][N], int wierszy, int kolumn);
