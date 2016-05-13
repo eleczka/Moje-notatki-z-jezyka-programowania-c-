@@ -106,6 +106,7 @@ int jest7 (int dane[])
 }
 ```
 Zad. 11. Napisz funkcje, która transponuje tablice kwadratowa double tab [128] [128] podana jako argument. Napisz i wykorzystaj funkcje void wyswietlMacierz (double m [128] [128], int wierszy, int kolumn);
+
 ...
 C
 
