@@ -1,4 +1,4 @@
-Notatki-z-jezyka-programowania-c 
+###NOTATKI -Z JĘZYKA PROGRAMOWANIA C
 
 
 Zadanie 2
