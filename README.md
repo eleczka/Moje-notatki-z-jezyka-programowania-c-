@@ -67,7 +67,7 @@ return 0;
 }
 
 ```
-Zad. 9  
+Zadanie 9  
 
 Napisać program, który pobiera od użytkownika n liczb i wczytuje je do tablicy. Napisać funkcje, która zwróci ostatnia liczbe tej tablicy podzielna przez 7.
 ```c
@@ -107,7 +107,7 @@ int jest7 (int dane[])
     return a;
 }
 ```
-Zad.11  
+Zadanie 11  
 
 Napisz funkcje, która transponuje tablice kwadratowa double tab [128] [128] podana jako argument. Napisz i wykorzystaj funkcje void wyswietlMacierz (double m [128] [128], int wierszy, int kol.
 ```c
