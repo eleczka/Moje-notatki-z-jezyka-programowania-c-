@@ -37,9 +37,9 @@ for(licznik=1; licznik<=ile;licznik++){
  return 0;
 }
 ```
-Zadanie 6:
+Zadanie 6  
 
-wypisz sinusy i cosinusy katow 0 do 180 topni z krokiem co 30 stopni za pomoca petli for
+##wypisz sinusy i cosinusy katow 0 do 180 topni z krokiem co 30 stopni za pomoca petli for
 
 ```c
 #include<stdio.h>
@@ -53,7 +53,7 @@ printf("cos(%3d)=%7.4lf\n", x,cos(x*M_PI/180));
 return 0;
 }
 ```
-Wypisz liczby całkowite od 0 do 23 zadnaie 1 dzien 1
+##  Wypisz liczby całkowite od 0 do 23 zadnaie 1 dzien 1
 ```c
 # include <stdio.h>
 int main(){
@@ -67,8 +67,8 @@ return 0;
 }
 
 ```
-Zad. 9. 
-Napisać program, który pobiera od użytkownika n liczb i wczytuje je do tablicy. Napisać funkcje, która zwróci ostatnia liczbe tej tablicy podzielna przez 7.
+Zad. 9  
+##Napisać program, który pobiera od użytkownika n liczb i wczytuje je do tablicy. Napisać funkcje, która zwróci ostatnia liczbe tej tablicy podzielna przez 7.
 ```c
 #include <stdio.h>
 #define rozmiar 5
@@ -106,8 +106,8 @@ int jest7 (int dane[])
     return a;
 }
 ```
-Zad. 11 
-Napisz funkcje, która transponuje tablice kwadratowa double tab [128] [128] podana jako argument. Napisz i wykorzystaj funkcje void wyswietlMacierz (double m [128] [128], int wierszy, int kol.
+Zad. 11   
+##Napisz funkcje, która transponuje tablice kwadratowa double tab [128] [128] podana jako argument. Napisz i wykorzystaj funkcje void wyswietlMacierz (double m [128] [128], int wierszy, int kol.
 ```c
 #include <stdio.h>
 #define N 128                     
