@@ -1,4 +1,4 @@
-//WYPISZ LICZBY CAŁKOWITE OD 0 DO 23 zadnaie 1 dzien 1
+##  WYPISZ LICZBY CAŁKOWITE OD 0 DO 23 zadnaie 1 dzien 1
 
 # include <stdio.h>
 int main(){
