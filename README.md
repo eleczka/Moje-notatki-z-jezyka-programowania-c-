@@ -5,7 +5,7 @@ Zadanie 2
 
 Wypisz liczby od -3,5 do 7,5 z krokiem co 0,5 za pomoca petli for i while
 
-```
+```c
 # include <stdio.h>
  int main(){
      double x=-3.5;
@@ -20,7 +20,7 @@ Zadanie 6
 
  Napisz program wczytujacy n liczb zmiennoprzecinkowych i wyswietl ich sume oraz srednia artmetyczna
 
-```
+```c
 #include<stdio.h>
 int main(){
 	double a, suma=0;
@@ -41,7 +41,7 @@ Zadanie 6:
 
 wypisz sinusy i cosinusy katow 0 do 180 topni z krokiem co 30 stopni za pomoca petli for
 
-```
+```c
 #include<stdio.h>
 include<math.h>
 int main(){
@@ -54,7 +54,7 @@ return 0;
 }
 ```
 Wypisz liczby całkowite od 0 do 23 zadnaie 1 dzien 1
-```
+```c
 # include <stdio.h>
 int main(){
 	int a=0;
@@ -68,7 +68,7 @@ return 0;
 
 ```
 Zad. 9. Napisać program, który pobiera od użytkownika n liczb i wczytuje je do tablicy. Napisać funkcje, która zwróci ostatnia liczbe tej tablicy podzielna przez 7.
-```
+```c
 #include <stdio.h>
 #define rozmiar 5
 int jest7 (int dane[]);
@@ -106,7 +106,7 @@ int jest7 (int dane[])
 }
 ```
 Zad. 11 Napisz funkcje, która transponuje tablice kwadratowa double tab [128] [128] podana jako argument. Napisz i wykorzystaj funkcje void wyswietlMacierz (double m [128] [128], int wierszy, int kol.
-# ...
+```c
 #include <stdio.h>
 #define N 128                     
 double trans (double tab[N][N], int wierszy, int kolumn);
@@ -165,4 +165,4 @@ void wyswietlMacierz (double m[N][N], int wierszy, int kolumn)
         for (j = 0; j < kolumn; j++)
             printf ("%lf %c", m[i][j], j == kolumn - 1 ? '\n' : ' ');
 }
-...
+```
